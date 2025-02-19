@@ -1,0 +1,322 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Exo 2", serif;
+    max-width: 100%;
+}
+/* ol, ul, li{
+    margin: 0;
+    padding: 0;
+} */
+
+.inner_banner{
+    background-image: url(../images/innerBanner.png);
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+}
+.innerbanner_content{
+    padding: 120px 0px;
+}
+ .innerbanner_content h5{
+    font-size: 25px;
+ }
+.innerbanner_content a{
+   text-decoration: none;
+   color: #fff;
+   font-size: 18px;
+    
+}
+.innerbanner_content span{
+    color: #fff;
+    font-size: 18px;
+}
+
+/* home page css start */
+
+
+.common_header h3{
+    position: relative
+}
+
+.common_header h3::before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 80px;
+    top: 17px;
+    right: 150px;
+
+    background-color: seagreen;
+}
+
+
+.common_header h3::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 80px;
+    top: 17px;
+    left: 150px;
+    background-color: seagreen;
+}
+
+.header_section{
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+}
+
+.menu_bar  .nav-item .nav-link{
+    font-family: "Exo 2", serif;
+    font-size: 18px;
+    color: black;
+   
+}
+
+.feature_section{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.feature_item {
+    margin: 10px 0px;
+}
+
+
+.about_content {
+    margin-left: 150px;
+}
+.about_header h2{
+    position: relative;
+}
+
+.about_header h2::before{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 80px;
+    top: 17px;
+    left: -110px;
+    background-color: seagreen;
+}
+
+/* project section start */
+.project_item{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
+}
+.project_item .card{
+    border: none;
+}
+
+
+.project_attribute ul li{
+    list-style: none;
+    font-size: 15px;
+    font-weight: 500;
+    
+    padding: 5px 0px;
+    position: relative;
+}
+
+.project_attribute ul li::before{
+    content: "\f152";
+    position: absolute;
+     font-family: fontawesome;
+     top: 7px;
+     left: -18px;
+}
+
+.project_item .card_content span{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* project section end */
+
+
+/* blog section css start */
+
+.blog_item a{
+    text-decoration: none;
+}
+.blog_item .blog_title{
+    font-family: "Tiro Bangla", serif;
+    font-weight: 600;
+    line-height: 30px;
+    font-size: 18px;
+    text-decoration: none;
+    color: darkgreen;
+}
+.blog_item{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 10px;
+}
+
+.blog_item .card{
+    border: none;
+}
+.blog_item .date_user ul li{
+    list-style: none;
+    margin: 10px 15px;
+}
+
+/* blog section css end */
+
+/* footer section start */
+
+.footer_section{
+    background-color: #212B21;
+}
+
+.footer_about p{
+    text-align: justify;
+}
+
+.footer_section .menu_item ul li a{
+    position: relative;
+    margin-left: 20px;
+    
+}
+
+.footer_section .menu_item ul li a::before{
+    content: "\f061";
+     position: absolute;
+     font-family: fontawesome;
+     top: 7px;
+     left: -23px;
+}
+.social_link ul a{
+    color: #fff;
+    font-size: 18px;
+    margin: 0px 10px;
+}
+.footer_bootom{
+    border-top: 1px solid #f1f1f1;
+}
+
+/* footer section end */
+
+
+
+/* contact page css start */
+.contact_item{
+    padding: 10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.contact_item .contact_icon a{
+    color: rgb(15, 81, 15) ;
+    font-size: 22px;
+}
+
+.contact_forms{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border-top: 4px solid rgb(22, 106, 22);
+    margin: 14px;
+   
+}
+.contact_map{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-top: 4px solid rgb(22, 106, 22);
+    margin: 12px 12px;
+}
+.contact_content{
+    padding: 10px 0px;
+}
+
+.contact_form label{
+    padding: 10px 0px;
+}
+.contact_form textarea{
+    resize: none;
+}
+
+/* contact page css end */
+
+/* faq page css start */
+.faq_contact{
+    padding: 15px 25px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-top: 4px solid rgb(4, 94, 4);
+
+}
+
+.faq_contact .nav-item i{
+    color: darkgreen;
+}
+
+/* faq page css end */
+
+/* login page css start */
+.login_section{
+    background: url(../images/agriculture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+     max-height: 100%;
+     max-width: 100%;
+}
+.log_inform{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 5px;
+  
+}
+.log_inform .card{
+    border: none;
+   
+}
+
+
+/* login page css end */
+
+/* responsive css start */
+@media screen and (max-width:700px) {
+    .common_header h3{
+        position: relative;
+        font-size: 16px;
+    }
+    
+    .common_header h3::before{
+        content: "";
+        position: absolute;
+        height: 2px;
+        width: 40px;
+        top: 12px;
+        right: 140px;
+    
+        background-color: seagreen;
+    }
+    
+    
+    .common_header h3::after{
+        content: "";
+        position: absolute;
+        height: 2px;
+        width: 40px;
+        top: 12px;
+        left: 140px;
+        background-color: seagreen;
+    }
+
+
+    .about_content {
+       padding: 30px 20px;
+       margin: 0;
+    }
+    .about_header{
+        margin-left: 70px;
+    }
+    
+}
+
+
+
+/* responsive css end */
