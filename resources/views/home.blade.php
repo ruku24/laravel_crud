@@ -50,7 +50,7 @@
                                  
                                  
                                     <td> 
-                                            <a href="{{ route('status' , $product->id) }}" class="btn btn-{{$product->status ==1 ? 'danger' : 'success'}}"><i class="fa-solid fa-toggle-{{$product->status ==1 ? 'off' : 'on'}}"></a>
+                                            <a href="{{ route('status' , $product->id) }}" class="btn btn-{{$product->status ==1 ? 'success' : 'danger'}}"><i class="fa-solid fa-toggle-{{$product->status ==1 ? 'off' : 'on'}}"></a>
                                         <a href="{{ route('edit', $product->id)}}" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i></a>
                                         <a href="{{ route('delete', $product->id) }}" class="btn btn-danger" onclick=" return confirm('Are you sure Deleted?') "><i class="fa-solid fa-trash"></i></a>
                                     </td>
